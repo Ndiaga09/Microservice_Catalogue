@@ -10,9 +10,8 @@ import lombok.NoArgsConstructor;
 
 import java.util.Date;
 
-/**
- * on a défini la classe dépense qui a pour attributs : id, reference, description, date et montant
- */
+//on a défini la classe dépense qui a pour attributs : id, reference, description, date et montant
+
 @Entity
 @AllArgsConstructor
 @NoArgsConstructor
