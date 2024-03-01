@@ -18,31 +18,21 @@ import java.util.Date;
 @NoArgsConstructor
 @Data
 public class Depense {
-	/**
-	 * 1°) id: est l'identifiant de dépense c'est à dire la clé primaire de la table dépense et est autoincrémenté
-	 */
+	//1°) id: est l'identifiant de dépense c'est à dire la clé primaire de la table dépense et est autoincrémenté
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private Long id;
 
-	/**
-	 * 2°) reference: est la référence de la dépense
-	 */
+	//2°) reference: est la référence de la dépense
 	private String reference;
 
-	/**
-	 * 3°) description: c'est pour décrire la dépense
-	 */
+	// 3°) description: c'est pour décrire la dépense
 	private String description;
 
-	/**
-	 * 4°) date: est la date dont la dépense est effectuée
-	 */
+	//4°) date: est la date dont la dépense est effectuée
 	private Date date;
 
-	/**
-	 * 5°) montant: est le montant de la dépense effectuée
-	 */
+	//5°) montant: est le montant de la dépense effectuée
 	private Double montant;
 		 
 	}
